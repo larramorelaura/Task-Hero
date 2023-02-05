@@ -2,4 +2,4 @@
 an app built using React, Node.js, Express, MongoDB, and Socket.io
 
 
-![Demo of Task Hero](https://github.com/Task-Hero/demo.gif)
+![Demo of Task Hero](https://github.com/larramorelaura/Task-Hero/Demo.gif)
