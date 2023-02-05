@@ -1,0 +1,40 @@
+.messageBubble {
+    background:  #99bdff;
+    color: #5e5843;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 4em;
+    margin-bottom: 1em;
+    padding: 0 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    min-width: 7em;
+    margin: 30px 10px;
+    border-radius: .4em .4em  .4em 0;
+    box-shadow: 2px 2px 4px rgb(180, 174, 174);
+}
+
+.messageBubble:after {
+	border: .8em solid transparent;
+	border-top-color:  #99bdff;
+	content: '';
+	margin-left: -.02em;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0;
+	height: 0;
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .dashboardContainer {
+        height: 100vh;
+        }
+}
+
+.dashboardContainer { 
+    color: #464747;
+}

@@ -1,0 +1,17 @@
+/* @media only screen and (min-width: 1024px) {
+    .container {
+        height: 100%;
+        }
+} */
+
+.container {
+    color:#36454f;
+}
+
+table td{
+    color:#36454f
+}
+
+table th{
+    color:#36454f
+}
